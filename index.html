@@ -7,19 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gibson Omieno | Programmer</title>
 
-  <!-- 
-    - favicon
-  -->
   <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 
-  <!-- 
-    - custom css link
-  -->
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/overide.css">
 
-  <!-- 
-    - google font link
-  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -28,10 +20,6 @@
 </head>
 
 <body id="top">
-
-  <!-- 
-    - #HEADER
-  -->
 
   <header class="header" data-header>
     <div class="container">
@@ -56,8 +44,6 @@
             <a href="#about" class="navbar-link" data-nav-link>About</a>
           </li>
 
-         
-
           <li>
             <a href="#skills" class="navbar-link" data-nav-link>Skills</a>
           </li>
@@ -65,8 +51,6 @@
           <li>
             <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
           </li>
-
-          
 
           <li>
             <a href="https://drive.google.com/file/d/1iUrqkY7nLRJJBc-AfflVjEcqM-FzlFl1/view?usp=drive_link" class="btn btn-primary">Download CV</a>
@@ -85,44 +69,30 @@
   <main>
     <article>
 
-      <!-- 
-        - #HERO
-      -->
-
       <section class="hero" id="home">
         <div class="container">
 
           <div class="hero-banner">
 
             <img src="/assets/images/gibson.jpg" width="900" height="864" loading="lazy" alt="Gibson"
-              class="img-cover">
-
+              class="img-cover" id="gipo">
+            
             <div class="elem elem-1">
-              <p class="elem-title">8</p>
+              <!-- <p class="elem-title">8</p> -->
 
-              <p class="elem-text">Years of Success</p>
-            </div>
-
-            <div class="elem elem-2">
-              <p class="elem-title">500+</p>
-
-              <p class="elem-text">Projects Completed</p>
+              <!-- <p class="elem-text">  8 Years of Success</p> -->
             </div>
 
             <div class="elem elem-3">
-              <ion-icon name="trophy"></ion-icon>
+              <!-- <ion-icon name="trophy"></ion-icon> -->
             </div>
-<!-- 
-            <img src="" width="169" height="172" alt="Gibson"
-              class="rotate-img"> -->
-
           </div>
 
           <div class="hero-content">
 
             <h2 class="hero-title">
               <span>Hello I'm</span>
-              <strong>Gibson Omieno</strong> Web and Game Developer
+              <strong>Gibson Omieno</strong>Cyber security engineer
             </h2>
 
             <p class="hero-text">
@@ -144,11 +114,7 @@
 
 
 
-      <!-- 
-        - #ABOUT
-      -->
-
-      <section class="section about" id="about">
+      <section class="section about animate-on-scroll" id="about">
         <div class="container">
 
           <figure class="about-banner">
@@ -184,10 +150,7 @@
             </p>
 
             
-           <p class="section-text">I harness <b>Python</b> for <b>cybersecurity automation</b>, scripting tools for <b>penetration testing</b>, rapid <b>log analysis</b>, and <b>vulnerability assessment</b>.</p>
-
-
-           
+            <p class="section-text">I harness <b>Python</b> for <b>cybersecurity automation</b>, scripting tools for <b>penetration testing</b>, rapid <b>log analysis</b>, and <b>vulnerability assessment</b>.</p>
 
           </div>
 
@@ -199,11 +162,7 @@
 
 
 
-      <!-- 
-        - #SKILLS
-      -->
-
-      <section class="section skills" id="skills">
+      <section class="section skills animate-on-scroll" id="skills">
         <div class="container">
 
           <p class="section-subtitle">Technology and skills</p>
@@ -218,7 +177,7 @@
 
             <li class="skills-item">
               <div class="wrapper" style="width: 95%">
-                <h3 class=" skills-title">Python</h3>
+                <h3 class="skills-title">Python</h3>
 
                 <data class="skills-data" value="95">95%</data>
               </div>
@@ -226,6 +185,7 @@
               <div class="skills-progress-box">
                 <div class="skills-progress" style="width: 95%"></div>
               </div>
+              <p class="skills-description">Expert proficiency in Python for scripting, data analysis, back-end web development (Django/Flask), and building automation tools, particularly in cybersecurity.</p>
             </li>
 
             <li class="skills-item">
@@ -238,6 +198,7 @@
               <div class="skills-progress-box">
                 <div class="skills-progress" style="width: 75%"></div>
               </div>
+              <p class="skills-description">Comprehensive knowledge across the stack, including modern JavaScript frameworks (React/Vue), robust back-end systems (Node.js/Python), and efficient database management (SQL/NoSQL).</p>
             </li>
 
             <li class="skills-item">
@@ -250,6 +211,7 @@
               <div class="skills-progress-box">
                 <div class="skills-progress" style="width: 90%"></div>
               </div>
+              <p class="skills-description">Strong eye for UI/UX, translating complex functional requirements into clean, responsive web interfaces and intuitive game environments.</p>
             </li>
 
             <li class="skills-item">
@@ -262,6 +224,7 @@
               <div class="skills-progress-box">
                 <div class="skills-progress" style="width: 60%"></div>
               </div>
+              <p class="skills-description">Expertise in Linux system administration, network security, penetration testing methodologies, and defensive security measures to build hardened applications.</p>
             </li>
 
             <li class="skills-item">
@@ -274,6 +237,7 @@
               <div class="skills-progress-box">
                 <div class="skills-progress" style="width: 80%"></div>
               </div>
+              <p class="skills-description">Proficient in game development using the Godot Engine, specifically utilizing GDScript for 2D and 3D game logic, physics, and interactive systems.</p>
             </li>
 
             <li class="skills-item">
@@ -286,6 +250,7 @@
               <div class="skills-progress-box">
                 <div class="skills-progress" style="width: 55%"></div>
               </div>
+              <p class="skills-description">Foundational knowledge of C++ for performance-critical applications, system-level programming, and extending game engines.</p>
             </li>
 
           </ul>
@@ -297,11 +262,7 @@
 
 
 
-      <!-- 
-        - #CONTACT
-      -->
-
-      <section class="section contact" id="contact">
+      <section class="section contact animate-on-scroll" id="contact">
         <div class="container">
 
           <div class="contact-card">
@@ -387,10 +348,6 @@
 
 
 
-  <!-- 
-    - #FOOTER
-  -->
-
   <footer class="footer">
     <div class="container">
 
@@ -415,30 +372,37 @@
 
 
 
-  <!-- 
-    - #BACK TO TOP
-  -->
-
   <a href="#top" class="back-to-top" data-back-to-top>BACK TOP</a>
 
 
 
 
 
-  <!-- 
-    - custom js link
-  -->
   <script src="./assets/js/script.js"></script>
 
-  <!-- 
-    - ionicon link
-  -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 
-  <!-- gate ya chuma hahaha -->
   <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+            observer.unobserve(entry.target); // Stop observing once animated
+          }
+        });
+      }, {
+        threshold: 0.1 // Trigger animation when 10% of the element is visible
+      });
+
+      document.querySelectorAll('.animate-on-scroll').forEach(element => {
+        observer.observe(element);
+      });
+    });
+
+    // Existing security scripts
     document.onkeydown = function(e) {
         if (e.key === 'F12') {
             return false;
@@ -454,7 +418,7 @@
             return false;
         }
     };
-</script>
+  </script>
 
 </body>
 
